@@ -27,9 +27,7 @@ public class Location implements Serializable {
     @Column
     private int capacity;
 
-    @OneToOne
-    @JoinColumn(name = "event_id")
-    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    @OneToOne(mappedBy = "location", cascade = CascadeType.ALL)
     private Event event;
 
     public UUID getId() {
