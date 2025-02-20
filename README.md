@@ -37,9 +37,9 @@
 - Atualizar cadastro de participante: PUT - http://localhost:8080/attendee
 ```
 {
-    "id": "7f30d2e4-3631-4eda-a162-2b63bdd521db",
-    "name": "Priscyane Vidotto",
-    "email": "comettipriscyane@gmail.com"
+    "id": "",
+    "name": "",
+    "email": ""
 }
 ```
 - Deletar participante: DELETE - http://localhost:8080/attendee/id_participante
